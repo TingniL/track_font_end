@@ -1,0 +1,31 @@
+.Home{
+    &-Top{
+        display: flex;
+        width: 100%;
+        &-Left{
+            .logoLeft{
+                width: 100px;
+                
+            }
+        }
+        &-Middle{
+
+        }
+        &-Right{
+            float: right;
+            .logoRight{
+                width: 100px;
+            }
+        }
+    }
+    &-Bottom{
+
+        &-Left{
+
+        }
+        &-Right{
+
+        }
+    }
+}
+
